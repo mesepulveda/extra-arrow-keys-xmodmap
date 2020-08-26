@@ -22,7 +22,7 @@ keycode 108 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
 ...
 ```
 
-The fifth and sixth columns are associated with the combinations `ISO_Level3_Shift+Key` and `ISO_Level3_Shift+Shift+Key`, respectively. This symbol is associated with the [AltGr](https://en.wikipedia.org/wiki/AltGr_key) key.
+The fifth and sixth columns are associated with the combinations `ISO_Level3_Shift+Key` and `ISO_Level3_Shift+Shift+Key`, respectively. This symbol is associated with the [AltGr](https://en.wikipedia.org/wiki/AltGr_key) key (keycode 108).
 
 To change the value of these combinations to the Up, Down, Left and Right symbols, we apply the following commands:
 
@@ -35,7 +35,7 @@ xmodmap -e "keycode  41 = f F f F Right Right dstroke"
 
 And now you can move using AltGr+[E, S, D, F]. Other keys can be used following a similar procedure.
 
-This will only last until the next reboot. To make it always available, one way is to write these commands in a shell script (`map_keys.sh`) and run it when you start the system with a "Startup Applications" software like the one available in Linux Mint. **Note:** Don't forget to make it [executable](https://askubuntu.com/questions/229589/how-to-make-a-file-e-g-a-sh-script-executable-so-it-can-be-run-from-a-termi).
+This will only last until the next reboot. To make it always available, one way is to write these commands in a shell script (`map_keys.sh`) and run it when you start the system with a "Startup Applications" software like the one available in Linux Mint. **Note:** Don't forget to make the script [executable](https://askubuntu.com/questions/229589/how-to-make-a-file-e-g-a-sh-script-executable-so-it-can-be-run-from-a-termi).
 
 # Useful commands
 1. `xev` to find information about keycode and keycode of a key.
