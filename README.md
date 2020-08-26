@@ -3,7 +3,7 @@ Moving your hands on the keyboard to the arrow keys takes a long time. With this
 
 # Why?
 Usually to write code you have to use the arrow keys, but moving your hands from the regular keys to these keys takes a long time.
-With this code you can combine the altGr key with another key and assign it an up, down, right, left value to move around.
+With this code you can combine the AltGr key with another key and assign it an up, down, right, left value to move around.
 
 # How to
 With [xmodmap](https://wiki.archlinux.org/index.php/Xmodmap) you can assign each *keycode* (number of the key) with a *keysym* (value of some symbol).
