@@ -38,5 +38,5 @@ And now you can move using AltGr+[E, S, D, F]. Other keys can be used following 
 This will only last until the next reboot. To make it always available, one way is to write these commands in a shell script (`map_keys.sh`) and run it when you start the system with a "Startup Applications" software like the one available in Linux Mint. **Note:** Don't forget to make the script [executable](https://askubuntu.com/questions/229589/how-to-make-a-file-e-g-a-sh-script-executable-so-it-can-be-run-from-a-termi).
 
 # Useful commands
-1. `xev` to find information about keycode and keycode of a key.
+1. `xev` to find information about keycode and keysym of a key.
 2. `setxkbmap` to restart the xmodmap configuration.
